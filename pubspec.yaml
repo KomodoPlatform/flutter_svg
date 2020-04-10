@@ -4,11 +4,11 @@ homepage: https://github.com/dnfield/flutter_svg
 version: 0.17.3+1
 
 dependencies:
-  path_drawing: # ^0.4.1 - TODO: 1ad9895 (0.4.1)
+  path_drawing: # 0.4.1 - DONE: Secure code reviewed 1ad9895 (0.4.1)
     git: 
       url: git://github.com/KomodoPlatform/flutter_path_drawing.git
       ref: 1ad989590be6b370269aca0d339454392152b224
-  xml: # ^3.3.1 - TODO: 6e6547a813eea0aa42774dd87849b32b03f03da0 (3.3.1)
+  xml: # 3.3.1 - DONE: Secure code reviewed 6e6547a813eea0aa42774dd87849b32b03f03da0 (3.3.1)
     git: 
       url: git://github.com/KomodoPlatform/dart-xml.git
       ref: 6e6547a813eea0aa42774dd87849b32b03f03da0
