@@ -6,16 +6,21 @@ version: 0.20.0-nullsafety.1
 dependencies:
   flutter:
     sdk: flutter
-  meta: ^1.3.0-nullsafety.6
-  path_drawing: ^0.5.0-nullsafety.0
-  vector_math: ^2.1.0-nullsafety.5
-  xml: ^5.0.0-nullsafety.0
-
+  meta: ^1.3.0-nullsafety.6 # dart.dev
+  path_drawing: # ^0.5.0-nullsafety.0 - DONE: Secure code reviewed 0005eb6 (0.5.0-nullsafety.0)
+    git: 
+      url: git://github.com/KomodoPlatform/flutter_path_drawing.git
+      ref: 0005eb6a605e8ca5d7fd58bcb84271c613f0caa9
+  vector_math: ^2.1.0-nullsafety.5 # google - https://github.com/google/vector_math.dart
+  xml: # ^5.0.0-nullsafety.0 - DONE: Secure code reviewed d161771 (^5.0.0-nullsafety.0)
+    git: 
+      url: git://github.com/KomodoPlatform/dart-xml.git
+      ref: d161771a9dd60fb8cb7f7663eb78a796c83e926d
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  path: ^1.8.0-nullsafety.3
-  test: ^1.16.0-nullsafety.9
+  path: ^1.8.0-nullsafety.3 # dart.dev
+  test: ^1.16.0-nullsafety.9 # dart.dev
 
 environment:
   sdk: '>=2.12.0-0 <3.0.0'
